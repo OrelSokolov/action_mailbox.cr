@@ -1,0 +1,29 @@
+mid_extracted	test-123@example.com
+mid_checksum	true
+mid_generated_shape	true
+ie_pending	pending
+ie_processed	false
+ie_enqueued	false
+ie_job_class	ActionMailbox::RoutingJob
+ie_source	true
+mail_from	["david@loudthinking.com"]
+mail_to	["replies@example.com"]
+mail_cc	["team@example.com"]
+mail_recipients	["replies@example.com", "team@example.com"]
+mail_subject	Hello there
+blob_filename	message.eml
+blob_ct	message/rfc822
+blob_service	Local
+blob_size	true
+route_regex	RepliesMailbox
+route_string	HelpMailbox
+route_all	BackstopMailbox
+recv_delivered	delivered
+recv_processed	true
+recv_ran	true
+recv_bounced	bounced
+recv_bounced_processed	true
+recv_before_bounce	["bounced", false]
+recv_failed	failed
+recv_before_ran	[true, "delivered"]
+recv_unrouted	["bounced", "ActionMailbox::Router::RoutingError"]
