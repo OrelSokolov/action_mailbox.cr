@@ -4,8 +4,11 @@ version: 0.1.0
 crystal: ">= 1.21.0"
 dependencies:
   active_record_cr:
-    path: ../active_record.cr
+    github: OrelSokolov/active_record.cr
+    version: ~> 0.1.0
   active_storage_cr:
-    path: ../active_storage.cr
+    github: OrelSokolov/active_storage.cr
+    version: ~> 0.1.0
   action_mailer_cr:
-    path: ../action_mailer.cr
+    github: OrelSokolov/action_mailer.cr
+    version: ~> 0.1.0
